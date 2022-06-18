@@ -1,0 +1,5 @@
+Note: The problem is that the login page disclose the admin username even If the admin will change the username, It will still disclose it without logging in. Works in HG8145V
+
+1. Visit http://192.168.0.1/
+2. Open Inspect and click Elements then find UserNameNormal and the value of the variable is the admin username.
+3. And near it are some useful stuff or useless depends that includes.
